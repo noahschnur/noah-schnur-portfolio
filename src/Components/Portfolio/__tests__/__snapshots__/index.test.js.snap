@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portfolio component matches snapshot 1`] = `
+<DocumentFragment>
+  <section>
+    <h2>
+      Portfolio
+    </h2>
+    <div>
+      <h3>
+        Pick 'Em
+      </h3>
+      <a
+        href="https://richardyjkim.github.io/my-first-project/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Pick 'Em homepage"
+          height="250px"
+          src="Pick-Em.png"
+          width="400px"
+        />
+      </a>
+      <p>
+        Pick 'Em was the first group project in the UC Berkeley Extnsion Boot Camp. This project took place at the end of the front end section of the boot camp. The main technologies used are: HTML, CSS, JavaScript, and web APIs.
+      </p>
+      <p>
+        I was responsible for using the data from the web API and rendering it in usable formats so my teemmates could use that for making the game. I sent the data for the date of the game, the home team, and the away team to localstorage.
+      </p>
+      <p>
+        Once in local storage, one of my teammates was responsible for using that information to style the page with CSS to make clickable buttons with the user's choice also sent to localstorage. Then a different teammate wrote code comparing the user's picks to the winners the next day once the API was updated.
+      </p>
+      <p>
+        We ended up hardcoding the app to the 2021 preseason for baseball as with our skill level at the time it was the easiest option with the way the external API was set-up.
+      </p>
+      <p>
+        <a
+          href="https://github.com/richardyjkim/my-first-project"
+          rel="noreferrer"
+          target="_blank"
+        >
+          GitHub
+        </a>
+      </p>
+      <p>
+        <a
+          href="https://richardyjkim.github.io/my-first-project/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Deployed page
+        </a>
+      </p>
+    </div>
+    <div>
+      <h3>
+        Swap Meet
+      </h3>
+      <a
+        href="https://serene-brushlands-34437.herokuapp.com/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Swap Meet homepage"
+          height="250px"
+          src="Swapmeet.png"
+          width="400px"
+        />
+      </a>
+      <p>
+        Swap Meet was the second group project in the UC Berkeley Extension Boot Camp. This project took place at the end of the back end section of the boot camp. The main technologies used are: Bcrypt, Express, Handlebars, Express Sessions, Multer, MySQL2, Sequelize.
+      </p>
+      <p>
+        I was responsible for for creating the databases in MySQL and Sequelize in order to store the different categories, the items, and the users. I also wrote the routes in order to show the information on the website and for the information input in the website by the user to update the databases.
+      </p>
+      <p>
+        <a
+          href="https://github.com/kingkevin05/swap-meet"
+          rel="noreferrer"
+          target="_blank"
+        >
+          GitHub
+        </a>
+      </p>
+      <p>
+        <a
+          href="https://serene-brushlands-34437.herokuapp.com/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Deployed page
+        </a>
+      </p>
+    </div>
+  </section>
+</DocumentFragment>
+`;

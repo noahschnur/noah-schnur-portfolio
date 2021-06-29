@@ -1,11 +1,10 @@
 import React from 'react';
-import { Document } from 'react-pdf';
+// import MyResume from '../../assets/Resume/NoahSchnurResume.pdf';
 
 function Resume() {
     return (
         <section>
             <h2>Noah's Resume</h2>
-            <Document file="" />
             <div>
                 <h3>Education</h3>
                 <p>

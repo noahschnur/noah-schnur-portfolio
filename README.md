@@ -29,7 +29,7 @@ Noah Schnur
 
 ## Tests
 
-N/A
+@testing-library/react, @testing-library/jest-dom/extend-expect
 
 ## Questions
 
