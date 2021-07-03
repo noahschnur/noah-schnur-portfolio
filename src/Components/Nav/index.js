@@ -5,42 +5,48 @@ function Nav(props) {
   let history = useHistory();
   const {setContactSelected } = props;
   return (
-    <header className="App-header">
-      <h1 className="App-h1">Noah Schnur</h1>
-      <nav className="App-nav">
-        <ul>
-          <li className="nav-li">
-            <a data-testid="about" href="/" onClick={() => {
-              setContactSelected(false)
-              history.push("/")
-            }}
-            className="App-link">
-              About Me
-            </a>
-          </li>
-          <li className="nav-li">
-            <a data-testid="portfolio" href="/portfolio" onClick={() => {
-              setContactSelected(false)
-              history.push("/Portfolio")}}
-              className="App-link">
-                Portfolio
-            </a>
-          </li>
-          <li className="nav-li">
-            <a data-testid="resume" href="/resume" onClick={() => {
-              setContactSelected(false)
-              history.push("/Resume")}}
-              className="App-link">
-                Resume
-            </a>
-          </li>
-          <li className="nav-li">
-            <a data-testid="contact" href="/#contact" onClick={() => setContactSelected(true)} className="App-link">
-              Contact
-            </a>
-          </li>
-        </ul>
-      </nav>
+    <header id="App-header" class="container">
+      <div class="row">
+        <div class="col">
+          <h1 id="App-h1">Noah Schnur</h1>
+        </div>
+        <div class="col">
+          <nav id="App-nav">
+            <ul>
+              <li id="nav-li">
+                <a data-testid="about" href="/" onClick={() => {
+                  setContactSelected(false)
+                  history.push("/")
+                }}
+                id="App-link">
+                  About Me
+                </a>
+              </li>
+              <li id="nav-li">
+                <a data-testid="portfolio" href="/portfolio" onClick={() => {
+                  setContactSelected(false)
+                  history.push("/Portfolio")}}
+                  id="App-link">
+                    Portfolio
+                </a>
+              </li>
+              <li id="nav-li">
+                <a data-testid="resume" href="/resume" onClick={() => {
+                  setContactSelected(false)
+                  history.push("/Resume")}}
+                  id="App-link">
+                    Resume
+                </a>
+              </li>
+              <li id="nav-li">
+                <a data-testid="contact" href="/#contact" onClick={() => setContactSelected(true)} id="App-link">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
   );
 }
