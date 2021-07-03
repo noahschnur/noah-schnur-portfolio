@@ -5,34 +5,37 @@ function Nav(props) {
   let history = useHistory();
   const {setContactSelected } = props;
   return (
-    <header>
-      <h1>Noah Schnur</h1>
-      <nav>
+    <header className="App-header">
+      <h1 className="App-h1">Noah Schnur</h1>
+      <nav className="App-nav">
         <ul>
-          <li>
-            <a data-testid="about" href="#about" onClick={() => {
+          <li className="nav-li">
+            <a data-testid="about" href="/" onClick={() => {
               setContactSelected(false)
               history.push("/")
-            }}>
+            }}
+            className="App-link">
               About Me
             </a>
           </li>
-          <li>
-            <a data-testid="portfolio" href="#Portfolio" onClick={() => {
+          <li className="nav-li">
+            <a data-testid="portfolio" href="/portfolio" onClick={() => {
               setContactSelected(false)
-              history.push("/Portfolio")}}>
+              history.push("/Portfolio")}}
+              className="App-link">
                 Portfolio
             </a>
           </li>
-          <li>
-            <a data-testid="resume" href="#Resume" onClick={() => {
+          <li className="nav-li">
+            <a data-testid="resume" href="/resume" onClick={() => {
               setContactSelected(false)
-              history.push("/Resume")}}>
+              history.push("/Resume")}}
+              className="App-link">
                 Resume
             </a>
           </li>
-          <li>
-            <a data-testid="contact" href="#contact" onClick={() => setContactSelected(true)}>
+          <li className="nav-li">
+            <a data-testid="contact" href="/#contact" onClick={() => setContactSelected(true)} className="App-link">
               Contact
             </a>
           </li>
