@@ -19,9 +19,9 @@ function App() {
       <main>
         {!contactSelected ? (
           <Switch>
-            <Route exact path="my-portfolio//resume" component={Resume} />
-            <Route exact path="my-portfolio//portfolio" component={Portfolio} />
-            <Route exact path="my-portfolio//" component={About} />
+            <Route exact path="my-portfolio/resume" component={Resume} />
+            <Route exact path="my-portfolio/portfolio" component={Portfolio} />
+            <Route exact path="my-portfolio/" component={About} />
           </Switch>
         ) : (
           <ContactForm></ContactForm>
