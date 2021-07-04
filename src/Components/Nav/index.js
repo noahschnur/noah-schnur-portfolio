@@ -39,7 +39,7 @@ function Nav(props) {
                 </a>
               </li>
               <li id="nav-li">
-                <a data-testid="contact" href="my-portfolio/#contact" onClick={() => setContactSelected(true)} id="App-link">
+                <a data-testid="contact" href="noahschnur-portfolio/#contact" onClick={() => setContactSelected(true)} id="App-link">
                   Contact
                 </a>
               </li>
