@@ -5,9 +5,9 @@ import Code from "../../assets/images/code-stock-pixabay.jpg";
 function Resume() {
   return (
     <section id="p-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-3">
+      <div className="container">
+        <div className="row">
+          <div className="col-3">
             <h3 id="s-light">From Bam Bam</h3>
             <img
               src={BamBam}
@@ -23,7 +23,7 @@ function Resume() {
               width="275px"
             />
           </div>
-          <div class="col-9">
+          <div className="col-9">
             <h2 id="s-light">Noah's Resume</h2>
             <div>
               <h3 id="s-light">Education</h3>

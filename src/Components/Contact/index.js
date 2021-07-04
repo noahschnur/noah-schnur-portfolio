@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import * as emailjs from 'emailjs-com';
 import { validateEmail } from "../../utils/helpers";
 import Contact from "../../assets/images/contact-stock-pixabay.png";
 
@@ -16,7 +17,14 @@ function ContactForm() {
     e.preventDefault();
     if (!errorMessage) {
       console.log("Submit Form", formState);
-    }
+    };
+
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_ID)
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
   };
 
   const handleChange = (e) => {
@@ -42,9 +50,9 @@ function ContactForm() {
 
   return (
     <section id="p-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-4">
+      <div className="container">
+        <div className="row">
+          <div className="col-4">
             <h2 data-testid="h2tag" id="s-light">
               Get in Touch
             </h2>
@@ -55,15 +63,15 @@ function ContactForm() {
               width="350px"
             />
           </div>
-          <div class="col-8">
+          <div className="col-8">
             <h2 data-testid="h2tag" id="s-light">
               Contact me
             </h2>
-            <form id="contact-form" onSubmit={handleSubmit}>
-              <div class="mb-3">
+            <form id="contact-form" onSubmit={ handleSubmit }>
+              <div className="mb-3">
                 <label
-                  for="exampleFormControlInput1"
-                  class="form-label"
+                  htmlFor="exampleFormControlInput1"
+                  className="form-label"
                   id="p-text"
                 >
                   Name
@@ -71,16 +79,16 @@ function ContactForm() {
                 <input
                   type="text"
                   name="name"
-                  class="form-control"
+                  className="form-control"
                   id="exampleFormControlInput1"
                   defaultValue={name}
                   onBlur={handleChange}
                 />
               </div>
-              <div class="mb-3">
+              <div className="mb-3">
                 <label
-                  for="exampleFormControlInput1"
-                  class="form-label"
+                  htmlFor="exampleFormControlInput1"
+                  className="form-label"
                   id="p-text"
                 >
                   Email address
@@ -88,23 +96,23 @@ function ContactForm() {
                 <input
                   type="email"
                   name="email"
-                  class="form-control"
+                  className="form-control"
                   id="exampleFormControlInput1"
                   defaultValue={email}
                   onBlur={handleChange}
                 />
               </div>
-              <div class="mb-3">
+              <div className="mb-3">
                 <label
-                  for="exampleFormControlTextarea1"
-                  class="form-label"
+                  htmlFor="exampleFormControlTextarea1"
+                  className="form-label"
                   id="p-text"
                 >
                   Message
                 </label>
                 <textarea
                   name="message"
-                  class="form-control"
+                  className="form-control"
                   id="exampleFormControlTextarea1"
                   rows="5"
                   defaultValue={message}
@@ -118,9 +126,9 @@ function ContactForm() {
               )}
               <button
                 data-testid="button"
-                class="btn btn-secondary"
+                className="btn btn-secondary"
                 type="submit"
-                value="send"
+                value="Send"
               >
                 Submit
               </button>

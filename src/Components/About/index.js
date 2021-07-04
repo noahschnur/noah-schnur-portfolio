@@ -5,13 +5,13 @@ import Noah from "../../assets/images/Noah.jpg";
 function About() {
     return (
         <section id="p-light">
-            <div class="container">
-                <div class="row">
-                    <div class="col-3">
+            <div className="container">
+                <div className="row">
+                    <div className="col-3">
                     <h3 id="s-light">Noah Schnur</h3>
                         <img src={Noah} alt="Noah Schnur" height="250px" width="300px" />
                     </div>
-                    <div class="col-9">
+                    <div className="col-9">
                         <h2 id="s-light">About Noah</h2>
                         <div>
                             <p id="p-text">

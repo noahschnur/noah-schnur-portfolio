@@ -5,15 +5,15 @@ import SwapMeet from "../../assets/screenshots/Swapmeet.png";
 function Portfolio() {
   return (
     <section id="p-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-4"></div>
-          <div class="col-8">
+      <div className="container">
+        <div className="row">
+          <div className="col-4"></div>
+          <div className="col-8">
             <h2 id="s-light">Portfolio</h2>
           </div>
         </div>
-        <div class="row">
-          <div class="col-4">
+        <div className="row">
+          <div className="col-4">
             <h3 id="s-light">Pick 'Em</h3>
             <a
               href="https://richardyjkim.github.io/my-first-project/"
@@ -28,7 +28,7 @@ function Portfolio() {
               />
             </a>
           </div>
-          <div class="col-8">
+          <div className="col-8">
             <h3 id="s-light">Description</h3>
             <p id="p-text">
               Pick 'Em was the first group project in the UC Berkeley Extnsion
@@ -56,9 +56,9 @@ function Portfolio() {
             </p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-4"></div>
-          <div class="col-2">
+        <div className="row">
+          <div className="col-4"></div>
+          <div className="col-2">
             <p>
               <a
                 href="https://github.com/richardyjkim/my-first-project"
@@ -70,7 +70,7 @@ function Portfolio() {
               </a>
             </p>
           </div>
-          <div class="col-2">
+          <div className="col-2">
             <p>
               <a
                 href="https://richardyjkim.github.io/my-first-project/"
@@ -82,10 +82,10 @@ function Portfolio() {
               </a>
             </p>
           </div>
-          <div class="col-4"></div>
+          <div className="col-4"></div>
         </div>
-        <div class="row">
-          <div class="col-4">
+        <div className="row">
+          <div className="col-4">
             <h3 id="s-light">Swap Meet</h3>
             <a
               href="https://serene-brushlands-34437.herokuapp.com/"
@@ -100,7 +100,7 @@ function Portfolio() {
               />
             </a>
           </div>
-          <div class="col-8">
+          <div className="col-8">
             <h3 id="s-light">Description</h3>
             <p id="p-text">
               Swap Meet was the second group project in the UC Berkeley
@@ -117,8 +117,8 @@ function Portfolio() {
               website by the user to update the databases.
             </p>
           </div>
-          <div class="col-4"></div>
-          <div class="col-2">
+          <div className="col-4"></div>
+          <div className="col-2">
             <p>
               <a
                 href="https://github.com/kingkevin05/swap-meet"
@@ -130,7 +130,7 @@ function Portfolio() {
               </a>
             </p>
           </div>
-          <div class="col-2">
+          <div className="col-2">
             <p>
               <a
                 href="https://serene-brushlands-34437.herokuapp.com/"
@@ -142,7 +142,7 @@ function Portfolio() {
               </a>
             </p>
           </div>
-          <div class="col-4"></div>
+          <div className="col-4"></div>
         </div>
       </div>
     </section>

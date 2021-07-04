@@ -5,12 +5,12 @@ function Nav(props) {
   let history = useHistory();
   const {setContactSelected } = props;
   return (
-    <header id="App-header" class="container">
-      <div class="row">
-        <div class="col">
+    <header id="App-header" className="container">
+      <div className="row">
+        <div className="col">
           <h1 id="App-h1">Noah Schnur</h1>
         </div>
-        <div class="col">
+        <div className="col">
           <nav id="App-nav">
             <ul>
               <li id="nav-li">
