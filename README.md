@@ -2,7 +2,7 @@
 
 ## Description
 
-A react webpage that is a portfolio for work done by me, Noah Schnur. It also includes an about me page, a resume page, and a contact me page where you can send me an email to get in touch.
+A react webpage that is a portfolio for work done by me, Noah Schnur. It includes an about me page, a resume page, and a contact me page where you can send me an email to get in touch.
 
 ## License
 
