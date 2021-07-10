@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://noahschnur.github.io/myportfolio/",
+  "homepage": "https://noahschnur.github.io/noah-schnur-portfolio/",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/styles": "^4.11.4",

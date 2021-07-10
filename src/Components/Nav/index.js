@@ -18,7 +18,7 @@ function Nav(props) {
                   data-testid="about"
                   onClick={() => {
                     setContactSelected(false);
-                    history.push("/myportfolio");
+                    history.push("/noah-schnur-portfolio");
                   }}
                   id="App-link"
                 >
