@@ -37,6 +37,4 @@ noahschnur@gmail.com, https://github.com/noahschnur
 
 https://github.com/noahschnur/noahschnur-portfolio
 
-<!-- https://www.youtube.com/watch?v=iwpJ2mELp7c
-
-[![Alt Text](https://img.youtube.com/vi/iwpJ2mELp7c/0.jpg)](https://www.youtube.com/watch?v=iwpJ2mELp7c) -->
+![Alt text](./src/assets/screenshots/frontpage.png "Screenshot")
