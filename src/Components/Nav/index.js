@@ -7,10 +7,11 @@ function Nav(props) {
   return (
     <header id="App-header" className="container">
       <div className="row">
-        <div className="col">
+        <div className="col-1"></div>
+        <div className="col-3">
           <h1 id="App-h1">Noah Schnur</h1>
         </div>
-        <div className="col">
+        <div className="col-7">
           <nav id="App-nav">
             <ul>
               <li id="nav-li">
@@ -64,6 +65,7 @@ function Nav(props) {
             </ul>
           </nav>
         </div>
+        <div className="col-1"></div>
       </div>
     </header>
   );

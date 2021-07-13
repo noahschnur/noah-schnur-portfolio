@@ -7,13 +7,13 @@ function Portfolio() {
     <section id="p-light">
       <div className="container">
         <div className="row">
-          <div className="col-4"></div>
+          <div className="col-4" id="border-line"></div>
           <div className="col-8">
             <h2 id="s-light">Portfolio</h2>
           </div>
         </div>
         <div className="row">
-          <div className="col-4">
+          <div className="col-4" id="border-line">
             <h3 id="s-light">Pick 'Em</h3>
             <a
               href="https://richardyjkim.github.io/my-first-project/"
@@ -23,8 +23,7 @@ function Portfolio() {
               <img
                 src={PickEm}
                 alt="Pick 'Em homepage"
-                height="250px"
-                width="400px"
+                className="portfolio-img"
               />
             </a>
           </div>
@@ -57,7 +56,7 @@ function Portfolio() {
           </div>
         </div>
         <div className="row">
-          <div className="col-4"></div>
+          <div className="col-4" id="border-line"></div>
           <div className="col-2">
             <p>
               <a
@@ -85,7 +84,7 @@ function Portfolio() {
           <div className="col-4"></div>
         </div>
         <div className="row">
-          <div className="col-4">
+          <div className="col-4" id="border-line">
             <h3 id="s-light">Swap Meet</h3>
             <a
               href="https://serene-brushlands-34437.herokuapp.com/"
@@ -95,8 +94,7 @@ function Portfolio() {
               <img
                 src={SwapMeet}
                 alt="Swap Meet homepage"
-                height="250px"
-                width="400px"
+                className="portfolio-img"
               />
             </a>
           </div>
@@ -117,7 +115,7 @@ function Portfolio() {
               website by the user to update the databases.
             </p>
           </div>
-          <div className="col-4"></div>
+          <div className="col-4" id="border-line"></div>
           <div className="col-2">
             <p>
               <a

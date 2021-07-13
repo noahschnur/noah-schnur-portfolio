@@ -1,17 +1,16 @@
 import React from 'react';
 import Noah from "../../assets/images/Noah.jpg";
 
-
 function About() {
     return (
         <section id="p-light">
             <div className="container">
                 <div className="row">
-                    <div className="col-3">
+                    <div className="col-4" id="border-line">
                     <h3 id="s-light">Noah Schnur</h3>
-                        <img src={Noah} alt="Noah Schnur" height="250px" width="300px" />
+                        <img src={Noah} alt="Noah Schnur" className="about-img"/>
                     </div>
-                    <div className="col-9">
+                    <div className="col-8">
                         <h2 id="s-light">About Noah</h2>
                         <div>
                             <p id="p-text">

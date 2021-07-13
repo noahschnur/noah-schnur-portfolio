@@ -1,7 +1,9 @@
 import React, { useState } from "react";
-import * as emailjs from 'emailjs-com';
+import emailjs from 'emailjs-com';
 import { validateEmail } from "../../utils/helpers";
 import Contact from "../../assets/images/contact-stock-pixabay.png";
+// require('dotenv').config();
+
 
 function ContactForm() {
   const [formState, setFormState] = useState({
@@ -12,19 +14,17 @@ function ContactForm() {
 
   const [errorMessage, setErrorMessage] = useState("");
   const { name, email, message } = formState;
-
-  const handleSubmit = (e) => {
+  
+  function sendEmail(e) {
     e.preventDefault();
-    if (!errorMessage) {
-      console.log("Submit Form", formState);
-    };
 
-    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_ID)
+    emailjs.sendForm("ns-portfolio", "template_ewmmhdr", e.target, "user_fJK4Yc9mwGRrnLMD8yjCB")
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
+      e.target.reset();
   };
 
   const handleChange = (e) => {
@@ -52,22 +52,21 @@ function ContactForm() {
     <section id="p-light">
       <div className="container">
         <div className="row">
-          <div className="col-4">
+          <div className="col-4" id="border-line">
             <h2 data-testid="h2tag" id="s-light">
               Get in Touch
             </h2>
             <img
               src={Contact}
               alt="Emails being sent, stock from pixabay.com"
-              height="250px"
-              width="350px"
+              className="contact-img"
             />
           </div>
           <div className="col-8">
             <h2 data-testid="h2tag" id="s-light">
               Contact me
             </h2>
-            <form id="contact-form" onSubmit={ handleSubmit }>
+            <form className="contact-form" onSubmit={ sendEmail }>
               <div className="mb-3">
                 <label
                   htmlFor="exampleFormControlInput1"
