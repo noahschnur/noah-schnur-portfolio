@@ -1,6 +1,7 @@
 import React from "react";
 import PickEm from "../../assets/screenshots/Pick-Em.png";
 import SwapMeet from "../../assets/screenshots/Swapmeet.png";
+import WeekdayScheduler from "../../assets/screenshots/WeekdayScheduler.png"
 
 function Portfolio() {
   return (
@@ -132,6 +133,64 @@ function Portfolio() {
             <p>
               <a
                 href="https://serene-brushlands-34437.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+                id="Port-link"
+              >
+                Deployed page
+              </a>
+            </p>
+          </div>
+          <div className="col-4"></div>
+        </div>
+        <div className="row">
+          <div className="col-4" id="border-line">
+            <h3 id="s-light">Weekday Scheduler</h3>
+            <a
+              href="https://protected-chamber-88097.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={WeekdayScheduler}
+                alt="Weekday Scheduler homepage"
+                className="portfolio-img"
+              />
+            </a>
+          </div>
+          <div className="col-8">
+            <h3 id="s-light">Description</h3>
+            <p id="p-text">
+              Weekday Scheduler was the third group project in the UC Berkeley
+              Extension Boot Camp. This project took place at the end of the
+              of the boot camp. The main technologies used are:
+              Bcrypt, Express, JWT, Mongo, GraphQL, and React.
+              </p>
+            <p id="p-text">
+              I was responsible for for creating the databases with GraphQL and
+              Mongo in order to store the events and comments on the events. 
+              I also wrote the queries, mutations, and routes in order to show the
+              information on the website and for the information input in the
+              website by the user to update the databases.
+            </p>
+          </div>
+          <div className="col-4" id="border-line"></div>
+          <div className="col-2">
+            <p>
+              <a
+                href="https://github.com/seyzho/project-3"
+                target="_blank"
+                rel="noreferrer"
+                id="Port-link"
+              >
+                GitHub
+              </a>
+            </p>
+          </div>
+          <div className="col-2">
+            <p>
+              <a
+                href="https://protected-chamber-88097.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
                 id="Port-link"
