@@ -167,7 +167,7 @@ function Portfolio() {
               Bcrypt, Express, JWT, Mongo, GraphQL, and React.
               </p>
             <p id="p-text">
-              I was responsible for for creating the databases with GraphQL and
+              I was responsible for creating the databases with GraphQL and
               Mongo in order to store the events and comments on the events. 
               I also wrote the queries, mutations, and routes in order to show the
               information on the website and for the information input in the
