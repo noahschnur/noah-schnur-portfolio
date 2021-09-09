@@ -8,13 +8,13 @@ function Portfolio() {
     <section id="p-light">
       <div className="container">
         <div className="row">
-          <div className="col-4" id="border-line"></div>
+          <div className="col-4" id="border-line-port"></div>
           <div className="col-8">
             <h2 id="s-light">Portfolio</h2>
           </div>
         </div>
         <div className="row">
-          <div className="col-4" id="border-line">
+          <div className="col-4" id="border-line-port">
             <h3 id="s-light">Pick 'Em</h3>
             <a
               href="https://richardyjkim.github.io/my-first-project/"
@@ -57,7 +57,7 @@ function Portfolio() {
           </div>
         </div>
         <div className="row">
-          <div className="col-4" id="border-line"></div>
+          <div className="col-4" id="border-line-port"></div>
           <div className="col-2">
             <p>
               <a
@@ -85,7 +85,7 @@ function Portfolio() {
           <div className="col-4"></div>
         </div>
         <div className="row">
-          <div className="col-4" id="border-line">
+          <div className="col-4" id="border-line-port">
             <h3 id="s-light">Swap Meet</h3>
             <a
               href="https://serene-brushlands-34437.herokuapp.com/"
@@ -116,7 +116,7 @@ function Portfolio() {
               website by the user to update the databases.
             </p>
           </div>
-          <div className="col-4" id="border-line"></div>
+          <div className="col-4" id="border-line-port"></div>
           <div className="col-2">
             <p>
               <a
@@ -144,7 +144,7 @@ function Portfolio() {
           <div className="col-4"></div>
         </div>
         <div className="row">
-          <div className="col-4" id="border-line">
+          <div className="col-4" id="border-line-port">
             <h3 id="s-light">Weekday Scheduler</h3>
             <a
               href="https://protected-chamber-88097.herokuapp.com/"
@@ -174,7 +174,12 @@ function Portfolio() {
               website by the user to update the databases.
             </p>
           </div>
-          <div className="col-4" id="border-line"></div>
+          <div className="col-4" id="border-line-port"></div>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
           <div className="col-2">
             <p>
               <a

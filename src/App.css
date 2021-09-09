@@ -11,6 +11,10 @@
 
 #App-footer {
   background-color: #363636;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -59,6 +63,8 @@
 
 #p-light {
   background-color: #8d8d8d;
+  height: 100%;
+  min-height: 100vh;
 }
 
 #p-dark {
@@ -83,6 +89,13 @@
 }
 
 #border-line {
+  border-right: 3px solid;
+  color: #ffad42;
+  height: 100%;
+  min-height: 100vh;
+}
+
+#border-line-port {
   border-right: 3px solid;
   color: #ffad42;
 }
